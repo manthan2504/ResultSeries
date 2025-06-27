@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-outline-purple {
+  text-shadow:
+    -1px -1px 0 purple,
+     1px -1px 0 purple,
+    -1px  1px 0 purple,
+     1px  1px 0 purple;
+}
