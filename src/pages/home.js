@@ -73,7 +73,7 @@ export default function Home() {
       setIndex((prevIndex) => (prevIndex + 1) % images.length);
     }, 6000);
     return () => clearInterval(interval);
-  }, []);
+  }, [images.length]);
 
   const handlePrev = () => {
     setIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);

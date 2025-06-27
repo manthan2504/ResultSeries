@@ -9,3 +9,23 @@
     -1px  1px 0 purple,
      1px  1px 0 purple;
 }
+
+
+/* Add at the top of your CSS file */
+@import 'nprogress/nprogress.css';
+
+/* Increase NProgress bar thickness */
+#nprogress .bar {
+  height: 6px;  /* Make it thicker, try 4px-8px as you like */
+}
+
+/* Optional: Change the color to match your brand */
+#nprogress .bar {
+  background: #ea580c; /* Your corporate orange */
+}
+
+/* Optional: Also update the spinner color if enabled */
+#nprogress .spinner-icon {
+  border-top-color: #ea580c;
+  border-left-color: #ea580c;
+}
