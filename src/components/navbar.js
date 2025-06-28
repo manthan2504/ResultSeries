@@ -117,9 +117,9 @@ const [scrolled, setScrolled] = useState(false);
               </div>
               {mobileAboutOpen && (
                 <ul className="pl-4 space-y-2 text-gray-600">
-                  <li><Link to="/about_us/background" onClick={() => setMobileOpen(false)}>OUR BACKGROUND</Link></li>
-                  <li><Link to="/about_us/overviews" onClick={() => setMobileOpen(false)}>OUR VIEWS</Link></li>
-                  <li><Link to="/about_us/navigators" onClick={() => setMobileOpen(false)}>OUR NAVIGATORS</Link></li>
+                  <li className='underline decoration-orange-600'><Link to="/about_us/background" onClick={() => setMobileOpen(false)}>OUR BACKGROUND</Link></li>
+                  <li className='underline decoration-orange-600'><Link to="/about_us/overviews" onClick={() => setMobileOpen(false)}>OUR VIEWS</Link></li>
+                  <li className='underline decoration-orange-600'><Link to="/about_us/navigators" onClick={() => setMobileOpen(false)}>OUR NAVIGATORS</Link></li>
                 </ul>
               )}
             </li>
@@ -132,9 +132,9 @@ const [scrolled, setScrolled] = useState(false);
               </div>
               {mobileServicesOpen && (
                 <ul className="pl-4 space-y-2 text-gray-600">
-                  <li><Link to="/services/trade_&_investment_facilitators" onClick={() => setMobileOpen(false)}>TRADE & INVESTMENT FACILITATORS</Link></li>
-                  <li><Link to="/services/merchants" onClick={() => setMobileOpen(false)}>MERCHANTS</Link></li>
-                  <li><Link to="/services/engineers" onClick={() => setMobileOpen(false)}>ENGINEERS</Link></li>
+                  <li className='underline decoration-orange-600'><Link to="/services/trade_&_investment_facilitators" onClick={() => setMobileOpen(false)}>TRADE & INVESTMENT FACILITATORS</Link></li>
+                  <li className='underline decoration-orange-600'><Link to="/services/merchants" onClick={() => setMobileOpen(false)}>MERCHANTS</Link></li>
+                  <li className='underline decoration-orange-600'><Link to="/services/engineers" onClick={() => setMobileOpen(false)}>ENGINEERS</Link></li>
                 </ul>
               )}
             </li>
@@ -142,14 +142,14 @@ const [scrolled, setScrolled] = useState(false);
             {/* Mobile Stay Connected Dropdown */}
             <li>
               <div className="flex justify-between items-center cursor-pointer hover:text-orange-600" onClick={() => setMobileConnectOpen(!mobileConnectOpen)}>
-                <span>Stay Connected</span>
+                <span >Stay Connected</span>
                 {mobileConnectOpen ? <FaChevronUp /> : <FaChevronDown />}
               </div>
               {mobileConnectOpen && (
                 <ul className="pl-4 space-y-2 text-gray-600">
-                  <li><Link to="/stay_connected/get_in_touch" onClick={() => setMobileOpen(false)}>GET IN TOUCH</Link></li>
-                  <li><Link to="/stay_connected/join_our_team" onClick={() => setMobileOpen(false)}>JOIN OUR TEAM</Link></li>
-                  <li><Link to="/stay_connected/blog" onClick={() => setMobileOpen(false)}>BLOG</Link></li>
+                  <li className='underline decoration-orange-600'><Link to="/stay_connected/get_in_touch" onClick={() => setMobileOpen(false)}>GET IN TOUCH</Link></li>
+                  <li className='underline decoration-orange-600'><Link to="/stay_connected/join_our_team" onClick={() => setMobileOpen(false)}>JOIN OUR TEAM</Link></li>
+                  <li className='underline decoration-orange-600'><Link to="/stay_connected/blog" onClick={() => setMobileOpen(false)}>BLOG</Link></li>
                 </ul>
               )}
             </li>
