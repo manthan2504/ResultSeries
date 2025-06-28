@@ -6,13 +6,13 @@ export default function Getintouch() {
   }, []);
 
   return (
-    <div className="pt-0 mt-0">
+    <div className="w-full">
       {/* Hero Section */}
-      <div className="relative w-full flex items-center justify-center overflow-hidden h-[400px] sm:h-[450px] md:h-[500px]">
+      <div className="relative w-full flex items-center justify-center overflow-hidden h-[400px] sm:h-[450px] md:h-[500px] pt-[80px]">
         <img
           src="/images/getintouchcoverimg.png"
           alt="Get in Touch Cover"
-          className="absolute top-0 left-0 w-full h-full object-cover z-0"
+          className="w-full h-full object-cover z-0"
         />
         {/* Overlay Text */}
         <div className="absolute inset-0 flex items-center justify-start z-10 px-4 sm:px-8">
@@ -39,8 +39,6 @@ export default function Getintouch() {
 
       {/* Contact Sections */}
       <div className="mt-6 flex flex-col space-y-10 px-4 sm:px-6">
-
-        {/* Email */}
         <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
           <img
             src="/images/getintouchimg1.png"
@@ -52,7 +50,6 @@ export default function Getintouch() {
           </span>
         </div>
 
-        {/* Australia */}
         <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
           <img
             src="/images/getintouchimg2.png"
@@ -67,7 +64,6 @@ export default function Getintouch() {
           </p>
         </div>
 
-        {/* India */}
         <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
           <img
             src="/images/getintouchimg3.png"
